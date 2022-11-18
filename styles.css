@@ -1,0 +1,70 @@
+body { 
+  background: linear-gradient(109.6deg, rgb(217, 250, 158) 11.2%, rgb(128, 251, 174) 91.1%);
+  height: 100vh;
+  width: 100%;
+}
+img { 
+  width: 320px;
+  height: 320px;
+  border-radius: 40px;
+}
+
+img:hover { 
+  transform: scale(1.5);
+  margin: 100px;
+}
+
+.title-container { 
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.title { 
+  color: rgb(255, 64, 64);
+  font-size: 64px;
+  border: 4px solid black;
+  border-radius: 25px;
+  padding: 10px;
+  margin: 5px;
+}
+
+.info {
+  font-size: 24px;
+  color: blueviolet;
+}
+
+.personal-info { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+}
+
+.name {
+  font-size: 24px;
+  color:rgb(117, 11, 255);
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  text-orientation: mixed;
+  transition: 1s;
+}
+
+p:hover { 
+  color: darkorange;
+  transform: rotate(180deg);
+}
+
+ul { 
+  list-style: none;
+  font-size: 24px;
+}
+
+.link { 
+  color: black;
+  padding: 15px;
+}
+
+a {
+  text-decoration: none;
+}
